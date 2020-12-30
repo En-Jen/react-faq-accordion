@@ -1,5 +1,6 @@
+import './App.css';
 import React from 'react';
-import Accordion from './components/Accordion';
+import FaqCard from './components/FaqCard';
 
 const faqs = [
     {
@@ -27,7 +28,9 @@ const faqs = [
 class App extends React.Component {
     render() {
         return (
-            <Accordion faqs={faqs} />
+            <main>
+                <FaqCard faqs={faqs}/>
+            </main>
         );
     }
 }
