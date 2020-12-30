@@ -1,11 +1,13 @@
 .faq__content {
+	max-width: 35rem;
 }
 
 .faq__heading {
 	font-size: 3.2rem;
-	font-weight: var(--weight-regular);
+	font-weight: var(--weight-bold);
 	text-align: center;
 	color: var(--color-dark-blue);
+	margin-bottom: 3rem;
 }
 
 .faq__items {
@@ -36,7 +38,7 @@
 }
 
 .faq__arrow {
-	transition: .2s transform;
+	transition: .4s transform;
 }
 
 .faq__answer {
