@@ -7,7 +7,6 @@
 	--color-dark-gray: hsl(237, 12%, 33%);
 	--color-mid-gray: hsl(240, 6%, 50%);
 	--bg-gradient: linear-gradient(180deg, hsl(273, 75%, 66%) 0%, hsl(240, 73%, 65%) 100%);
-	--box-shadow: hsl(238, 29%, 16%);
 
 	/* Font Weights */
 	--weight-regular: 400;
@@ -32,11 +31,8 @@ body {
 	font-family: 'Kumbh Sans', sans-serif;
 	min-height: 100vh;
 	background-image: var(--bg-gradient);
-	padding: 2.4rem;
+	padding: 13rem 2.4rem 10rem 2.4rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-main {
 }
