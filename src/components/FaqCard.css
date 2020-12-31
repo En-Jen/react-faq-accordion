@@ -24,13 +24,13 @@
 	display: block;
 	height: 18rem;
 	width: 24.7rem;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(../assets/illustration-woman-online-mobile.svg);
 	position: absolute;
 	top: -9.7rem;
 	left: calc(50% - 1.3rem);
 	transform: translateX(-50%);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../assets/illustration-woman-online-mobile.svg);
 	z-index: 2;
 }
 
@@ -50,13 +50,13 @@
 	margin: auto;
 	height: 18rem;
 	width: 22.5rem;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(../assets/bg-pattern-mobile.svg);
 	position: absolute;
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../assets/bg-pattern-mobile.svg);
 	z-index: 1;
 }
 
@@ -64,10 +64,10 @@
 	.faq__bg {
 		height: 56.8rem;
 		width: 96.4rem;
+		margin: 0;
 		top: -1.5rem;
 		left: -62%;
 		transform: translateX(0);
-		margin: 0;
 		background-size: cover;
 		background-position: 50% 75%;
 		background-image: url(../assets/bg-pattern-desktop.svg);
@@ -78,11 +78,11 @@
 @media only screen and (min-width: 1100px) {
 	main::before {
 		content: '';
-		position: absolute;
 		width: 15rem;
 		height: 18rem;
+		position: absolute;
 		left: calc((100vw - 92rem) / 2 - 9rem);
-		top: calc(50% + 4rem);
+		top: calc(50% + 5.8rem);
 		transform: translateY(-50%);
 		background-repeat: no-repeat;
 		background-size: cover;
